@@ -27,5 +27,3 @@ buildah run ${ctr} -- rm -rf /var/cache/yum*
 buildah run ${ctr} -- rm -rf /tmp/openjdk.tar.gz
 
 buildah commit ${ctr} myjava:latest
-
-#buildah push myjava:latest docker-daemon:myjava:latest
