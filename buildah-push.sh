@@ -1,6 +1,6 @@
 #!/bin/bash
 
-apiKey="SxJNijk3_3QYWLfzeJIVNUKvgL2s9_JsROdN69ncsK1f"
+apiKey=$1
 
 buildah push --tls-verify=false \
 	--creds=iamapikey:${apiKey} \
